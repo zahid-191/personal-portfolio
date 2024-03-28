@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- remix icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+        integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Kanit' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./aos/aos.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/blog.css">
+</head>
+
+<body>
+
+
+    <!------------------------------------------------------------------------------>
+    <!---------HEADER SECTION START -->
+    <!----------------------------------------------------------------------------->
+
+    <header>
+
+        <nav class="navbar bg-body-tertiary fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./img/logo-2.svg" alt="logo" width="100"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./img/logo-2.svg" alt="logo"
+                                width="80"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">ABOUT Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">SHOP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">PORTFOLOI</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    BLOG
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#blog">BLOG-PAGE</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    SERVICE
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Service Page</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ELEMENTS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="mouse__reaction"></div>
+    </header>
+
+    <!------------------------------------------------------------------------------>
+    <!---------HEADER SECTION END -->
+    <!----------------------------------------------------------------------------->
+
+
+
+    <!------------------------------------------------------------------------------>
+    <!---------BLOG SECTION START -->
+    <!----------------------------------------------------------------------------->
+    <section id="blog">
+        <div class="container">
+            <div class="blog_title pb-5">
+                <h2>Blog</h2>
+            </div>
+            <div class="row pt-5 g-4">
+                <div class="col-xl-4 col-md-4">
+                    <div class="blog_box" data-aos="flip-left">
+                        <div class="blog_body">
+                            <img src="./img/01.webp" alt="Avatar" class="image" style="width:100%">
+                            <div class="middle">
+                                <div class="plus">+</div>
+                            </div>
+                        </div>
+                        <div class="blog_text">
+                            <h3>Work Passionately</h3>
+                            <span><i class="fa-regular fa-eye"></i>320 View </span><span><i
+                                    class="fa-regular fa-heart"></i> 10 likes</span>
+                            <p>Camping out under a starry sky, in the middle of a tropical lowland rainforest's is Lorem
+                                isem dolor sit amete, consectetur adipisicing elided reiciendis.</p>
+                            <a href="./blog-details.html" class="blog_details">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-4">
+                    <div class="blog_box" data-aos="flip-left">
+                        <div class="blog_body">
+                            <img src="./img/06.webp" alt="Avatar" class="image" style="width:100%">
+                            <div class="middle">
+                                <div class="plus">+</div>
+                            </div>
+                        </div>
+                        <div class="blog_text">
+                            <h3>Work Passionately</h3>
+                            <span><i class="fa-regular fa-eye"></i>320 View </span><span><i
+                                    class="fa-regular fa-heart"></i> 10 likes</span>
+                            <p>Camping out under a starry sky, in the middle of a tropical lowland rainforest's is Lorem
+                                isem dolor sit amete, consectetur adipisicing elided reiciendis.</p>
+                            <a href="./blog-details.html" class="blog_details">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-4">
+                    <div class="blog_box" data-aos="flip-left">
+                        <div class="blog_body">
+                            <img src="./img/03.webp" alt="Avatar" class="image" style="width:100%">
+                            <div class="middle">
+                                <div class="plus">+</div>
+                            </div>
+                        </div>
+                        <div class="blog_text">
+                            <h3>Work Passionately</h3>
+                            <span><i class="fa-regular fa-eye"></i>320 View </span><span><i
+                                    class="fa-regular fa-heart"></i> 10 likes</span>
+                            <p>Camping out under a starry sky, in the middle of a tropical lowland rainforest's is Lorem
+                                isem dolor sit amete, consectetur adipisicing elided reiciendis.</p>
+                            <a href="./blog-details.html" class="blog_details">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-4">
+                    <div class="blog_box" data-aos="flip-left">
+                        <div class="blog_body">
+                            <img src="./img/04.webp" alt="Avatar" class="image" style="width:100%">
+                            <div class="middle">
+                                <div class="plus">+</div>
+                            </div>
+                        </div>
+                        <div class="blog_text">
+                            <h3>Work Passionately</h3>
+                            <span><i class="fa-regular fa-eye"></i>320 View </span><span><i
+                                    class="fa-regular fa-heart"></i> 10 likes</span>
+                            <p>Camping out under a starry sky, in the middle of a tropical lowland rainforest's is Lorem
+                                isem dolor sit amete, consectetur adipisicing elided reiciendis.</p>
+                            <a href="./blog-details.html" class="blog_details">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-4">
+                    <div class="blog_box" data-aos="flip-left">
+                        <div class="blog_body">
+                            <img src="./img/05.webp" alt="Avatar" class="image" style="width:100%">
+                            <div class="middle">
+                                <div class="plus">+</div>
+                            </div>
+                        </div>
+                        <div class="blog_text">
+                            <h3>Work Passionately</h3>
+                            <span><i class="fa-regular fa-eye"></i>320 View </span><span><i
+                                    class="fa-regular fa-heart"></i> 10 likes</span>
+                            <p>Camping out under a starry sky, in the middle of a tropical lowland rainforest's is Lorem
+                                isem dolor sit amete, consectetur adipisicing elided reiciendis.</p>
+                            <a href="./blog-details.html" class="blog_details">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-4">
+                    <div class="blog_box" data-aos="flip-left">
+                        <div class="blog_body">
+                            <img src="./img/06.webp" alt="Avatar" class="image" style="width:100%">
+                            <div class="middle">
+                                <div class="plus">+</div>
+                            </div>
+                        </div>
+                        <div class="blog_text">
+                            <h3>Work Passionately</h3>
+                            <span><i class="fa-regular fa-eye"></i>320 View </span><span><i
+                                    class="fa-regular fa-heart"></i> 10 likes</span>
+                            <p>Camping out under a starry sky, in the middle of a tropical lowland rainforest's is Lorem
+                                isem dolor sit amete, consectetur adipisicing elided reiciendis.</p>
+                            <a href="./blog-details.html" class="blog_details">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-4">
+                    <div class="blog_box" data-aos="zoom-in">
+                        <div class="blog_body">
+                            <img src="./img/01.webp" alt="Avatar" class="image" style="width:100%">
+                            <div class="middle">
+                                <div class="plus">+</div>
+                            </div>
+                        </div>
+                        <div class="blog_text">
+                            <h3>Work Passionately</h3>
+                            <span><i class="fa-regular fa-eye"></i>320 View </span><span><i
+                                    class="fa-regular fa-heart"></i> 10 likes</span>
+                            <p>Camping out under a starry sky, in the middle of a tropical lowland rainforest's is Lorem
+                                isem dolor sit amete, consectetur adipisicing elided reiciendis.</p>
+                            <a href="./blog-details.html" class="blog_details">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-4">
+                    <div class="blog_box" data-aos="zoom-in">
+                        <div class="blog_body">
+                            <img src="./img/05.webp" alt="Avatar" class="image" style="width:100%">
+                            <div class="middle">
+                                <div class="plus">+</div>
+                            </div>
+                        </div>
+                        <div class="blog_text">
+                            <h3>Work Passionately</h3>
+                            <span><i class="fa-regular fa-eye"></i>320 View </span><span><i
+                                    class="fa-regular fa-heart"></i> 10 likes</span>
+                            <p>Camping out under a starry sky, in the middle of a tropical lowland rainforest's is Lorem
+                                isem dolor sit amete, consectetur adipisicing elided reiciendis.</p>
+                            <a href="./blog-details.html" class="blog_details">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-4">
+                    <div class="blog_box" data-aos="zoom-in">
+                        <div class="blog_body">
+                            <img src="./img/03.webp" alt="Avatar" class="image" style="width:100%">
+                            <div class="middle">
+                                <div class="plus">+</div>
+                            </div>
+                        </div>
+                        <div class="blog_text">
+                            <h3>Work Passionately</h3>
+                            <span><i class="fa-regular fa-eye"></i>320 View </span><span><i
+                                    class="fa-regular fa-heart"></i> 10 likes</span>
+                            <p>Camping out under a starry sky, in the middle of a tropical lowland rainforest's is Lorem
+                                isem dolor sit amete, consectetur adipisicing elided reiciendis.</p>
+                            <a href="./blog-details.html" class="blog_details">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-pagination pt-5">
+                    <div class="pagination">
+                        <a class="pagination_block" href="#">&laquo;</a>
+                        <a href="#">1</a>
+                        <a class="active" href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a class="pagination_block" href="#">&raquo;</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!------------------------------------------------------------------------------>
+    <!---------BLOG SECTION END -->
+    <!----------------------------------------------------------------------------->
+
+
+
+    <!------------------------------------------------------------------------------>
+    <!---------NEWSLETTER SECTION START-->
+    <!----------------------------------------------------------------------------->
+
+    <section class="newsletter__section">
+        <div class="parallax__box">
+            <form>
+                <div class="form__box__newsletter">
+                    <h2>SUBSCRIBE MY NEWSLETTER</h2>
+                    <div class="newsletter__input__box">
+                        <input type="search" name="srch" placeholder="Enter Your Email">
+                        <button type="submit">Notify Now</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!------------------------------------------------------------------------------>
+    <!---------NEWSLETTER SECTION END-->
+    <!----------------------------------------------------------------------------->
+
+
+
+
+    <!------------------------------------------------------------------------------>
+    <!---------MAIN FOOTER SECTION START-->
+    <!----------------------------------------------------------------------------->
+
+    <footer class="footer__section">
+        <div class="container-fluid">
+            <div class="row g-4">
+
+                <div class="col-xl-2">
+                    <div class="footer__text__grid">
+                        <h1>ZA<span>h</span>ID</h1>
+                    </div>
+                </div>
+
+                <div class="col-xl-3">
+                    <div class="address__box" data-aos="flip-left">
+                        <div class="address__icon mt-2">
+                            <i class="ri-map-pin-user-line"></i>
+                        </div>
+                        <div class="address__box__text">
+                            <h3>ADDRESS</h3>
+                            <h5>Rangpur, Dhaka <br> Bangladesh</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3">
+                    <div class="footer__link__heading" data-aos="flip-left">
+                        <div class="talks__us__icon">
+                            <i class="ri-mobile-download-fill"></i>
+                        </div>
+                        <div class="talks__us__number">
+                            <h3>LET'S TALK US</h3>
+                            <h5>(+880 1777940216) </h5>
+                            <h5>(+880 1797839367) </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="contact__email__box" data-aos="flip-left">
+                        <div class="email__icon">
+                            <i class="ri-mail-send-line"></i>
+                        </div>
+                        <div class="email__text">
+                            <h3>SEND US EMAIL</h3>
+                            <h5>zahidhasan800972@gnail.com</h5>
+                            <h5>zishanamily@gmail.com</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!------------------------------------------------------------------------------>
+    <!---------MAIN FOOTER SECTION END-->
+    <!----------------------------------------------------------------------------->
+
+
+
+    <!-- js plugin -->
+    <script src="./js/jquery-2.2.4.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- js added -->
+    <script src="./js/blog.js"></script>
+</body>
+
+</html>
